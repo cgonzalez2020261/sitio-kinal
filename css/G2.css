@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, Helvetica;
+    background: url(fondo.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+}
+
+.Menu{
+    list-style: none;
+    padding: 0;
+    background: #03090a;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.Menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.Menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.Menu li a:hover{
+    background: #3a3736;
+}
+  
+
+.Videos{
+    list-style: none;
+    padding: 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.Videos li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.Videos li a:hover{
+    background: #3a3736;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    text-size-adjust: 20;
+    font-size: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
